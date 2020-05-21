@@ -1,11 +1,11 @@
 // @ts-ignore
 declare module "@capacitor/core" {
   interface PluginRegistry {
-    FlashlightPlugin: FlashlightPluginPlugin;
+    FlashlightPlugin: FlashlightPlugin;
   }
 }
 
-export interface FlashlightPluginPlugin {
+export interface FlashlightPlugin {
   /**
    * Checks if flashlight is available
    * @returns  {Promise<{ value: boolean }>} true if flashlight is available and false if not
