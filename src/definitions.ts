@@ -1,3 +1,4 @@
+// @ts-ignore
 declare module "@capacitor/core" {
   interface PluginRegistry {
     FlashlightPlugin: FlashlightPluginPlugin;
@@ -5,5 +6,5 @@ declare module "@capacitor/core" {
 }
 
 export interface FlashlightPluginPlugin {
-  echo(options: { value: string }): Promise<{value: string}>;
+  echo(options: { value: string }): Promise<{ value: string }>;
 }
