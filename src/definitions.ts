@@ -17,7 +17,7 @@ export interface FlashlightPlugin {
    * @returns {Promise<void>} an empty Promise
    * @param intensity The intensity of the light between 0.0 and 1.0
    */
-  switchOn(intensity?: number): Promise<void>;
+  switchOn(options: { intensity?: number }): Promise<void>;
 
   /**
    * Turns the flashlight off
