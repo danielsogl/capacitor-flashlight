@@ -1,6 +1,6 @@
 {
   "name": "capacitor-flashlight",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Capacitor plugin for using the flashlight of your device",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
